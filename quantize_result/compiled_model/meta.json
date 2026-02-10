@@ -1,0 +1,9 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "sf_ultra96.xmodel",
+    "kernel": [
+        "subgraph_StreetFighterCNN__StreetFighterCNN_Sequential_model__BatchNorm1d_11__ret_21_transfer_to_depthwise_conv2d",
+        "subgraph_StreetFighterCNN__StreetFighterCNN_Sequential_model__Flatten_16__ret_29_fix_reshaped"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096"
+}

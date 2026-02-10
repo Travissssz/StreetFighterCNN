@@ -1,0 +1,17 @@
+[1, 150, 6]: StreetFighterCNN::input_0
+[1, 150, 32]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/Conv1d[0]/ret.3
+[1, 150, 32]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/BatchNorm1d[1]/ret.5
+[1, 150, 32]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/ReLU[2]/ret.7
+[1, 37, 32]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/MaxPool1d[3]/ret.9
+[1, 37, 128]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/Conv1d[5]/ret.11
+[1, 37, 128]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/BatchNorm1d[6]/ret.13
+[1, 37, 128]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/ReLU[7]/ret.15
+[1, 12, 128]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/MaxPool1d[8]/ret.17
+[1, 12, 96]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/Conv1d[10]/ret.19
+[1, 12, 96]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/BatchNorm1d[11]/ret.21
+[1, 12, 96]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/ReLU[12]/ret.23
+[1, 4, 96]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/MaxPool1d[13]/ret.25
+[1, 96, 4]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/MaxPool1d[13]/ret.25_sink_transpose_0
+[1, 96, 1]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/AdaptiveAvgPool1d[15]/ret.27
+[1, 96]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/Flatten[16]/ret.29
+[1, 10]: StreetFighterCNN::StreetFighterCNN/Sequential[model]/Linear[17]/ret

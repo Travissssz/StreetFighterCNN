@@ -1,0 +1,1 @@
+{"classes": ["protect_right", "punch", "right_guard", "right_hook", "right_upper"], "normalization": {"accel_min": -19.61, "accel_max": 161.0, "gyro_min": -4.37, "gyro_max": 437.0}, "target_rows": 125, "sample_rate_hz": 50}

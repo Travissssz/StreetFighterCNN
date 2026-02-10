@@ -1,0 +1,42 @@
+{
+  "param":
+  {
+    "StreetFighterCNN::model.0.weight":[[8,7]],
+    "StreetFighterCNN::model.0.bias":[[8,12]],
+    "StreetFighterCNN::model.1.weight":[[8,0]],
+    "StreetFighterCNN::model.1.bias":[[8,5]],
+    "StreetFighterCNN::model.5.weight":[[8,8]],
+    "StreetFighterCNN::model.5.bias":[[8,12]],
+    "StreetFighterCNN::model.6.weight":[[8,6]],
+    "StreetFighterCNN::model.6.bias":[[8,6]],
+    "StreetFighterCNN::model.10.weight":[[8,9]],
+    "StreetFighterCNN::model.10.bias":[[8,12]],
+    "StreetFighterCNN::model.11.weight":[[8,6]],
+    "StreetFighterCNN::model.11.bias":[[8,6]],
+    "StreetFighterCNN::model.17.weight":[[8,7]],
+    "StreetFighterCNN::model.17.bias":[[8,9]]
+  },
+  "output":
+  {
+    "StreetFighterCNN::nndct_input_0":[[8,5]],
+    "StreetFighterCNN::nndct_conv1d_1":[[8,5]],
+    "StreetFighterCNN::nndct_relu_3":[[8,-2]],
+    "StreetFighterCNN::nndct_maxpool1d_4":[[8,-2]],
+    "StreetFighterCNN::nndct_conv1d_5":[[8,-1]],
+    "StreetFighterCNN::nndct_relu_7":[[8,-1]],
+    "StreetFighterCNN::nndct_maxpool1d_8":[[8,-1]],
+    "StreetFighterCNN::nndct_conv1d_9":[[8,-2]],
+    "StreetFighterCNN::nndct_relu_11":[[8,-2]],
+    "StreetFighterCNN::nndct_maxpool1d_12":[[8,-2]],
+    "StreetFighterCNN::nndct_dense_15":[[8,-4]],
+    "StreetFighterCNN::aten_adaptive_avg_pool1d_13":[[8,-2]]
+  },
+  "input":
+  {
+
+  },
+  "fast_finetuned":false,
+  "bias_corrected":true,
+  "version":"3.5.0+60df3f1+torch1.13.1",
+  "graph_md5":"51fb4aa87f56a732115c891b954ad9a0"
+}

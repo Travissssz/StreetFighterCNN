@@ -1,0 +1,1 @@
+{"classes": ["jab", "left_guard", "left_hook", "left_upper", "protect_left"], "normalization": {"accel_min": -19.61, "accel_max": 19.61, "gyro_min": -4.37, "gyro_max": 26.0}, "target_rows": 125, "sample_rate_hz": 50}
