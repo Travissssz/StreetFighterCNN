@@ -1,0 +1,228 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\streetfighter.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/06/26 16:20:54",
+ "timestampMillis": "1775463654402",
+ "buildStep": {
+  "cmdId": "b051ba0d-5f3b-4b6c-a81b-08a9ec7b888f",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\logs\\streetfighter.steps.log",
+  "commandLine": "C:/Users/eswar/OneDrive/Desktop/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\hls_config.cfg --work_dir streetfighter ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\hls_config.cfg",
+   "--work_dir",
+   "streetfighter"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/06/26 16:20:54",
+ "timestampMillis": "1775463654403",
+ "status": {
+  "cmdId": "b051ba0d-5f3b-4b6c-a81b-08a9ec7b888f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660356",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "street_fighter_cnn",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\src\\cnn_top.cpp",
+     "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\weights.h",
+     "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\cnn_top.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660358",
+ "buildStep": {
+  "cmdId": "0e05e420-c48e-43cc-a86b-7773ee165bd0",
+  "name": "",
+  "logFile": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660359",
+ "status": {
+  "cmdId": "0e05e420-c48e-43cc-a86b-7773ee165bd0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660359",
+ "report": {
+  "path": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls\\sim\\report\\street_fighter_cnn_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660360",
+ "report": {
+  "path": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660360",
+ "report": {
+  "path": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660361",
+ "report": {
+  "path": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:21:00",
+ "timestampMillis": "1775463660361",
+ "report": {
+  "path": "C:/Users\\eswar\\OneDrive\\Desktop\\streetfighter\\streetfighter\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/06/26 16:24:08",
+ "timestampMillis": "1775463848487",
+ "status": {
+  "cmdId": "0e05e420-c48e-43cc-a86b-7773ee165bd0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/06/26 16:24:08",
+ "timestampMillis": "1775463848625",
+ "status": {
+  "cmdId": "b051ba0d-5f3b-4b6c-a81b-08a9ec7b888f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:24:08",
+ "timestampMillis": "1775463848625",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/06/26 16:24:08",
+ "timestampMillis": "1775463848626",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

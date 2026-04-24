@@ -1,0 +1,31 @@
+[
+  {
+    "directory": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter",
+    "arguments": [
+      "C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=street_fighter_cnn",
+      "-I./src",
+      "-I./data",
+      "-c",
+      "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\src\\cnn_top.cpp"
+    ],
+    "file": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\src\\cnn_top.cpp"
+  },
+  {
+    "directory": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter",
+    "arguments": [
+      "C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Users\\eswar\\OneDrive\\Desktop\\2025.2\\Vitis\\include",
+      "-I./src",
+      "-I./data",
+      "-c",
+      "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\tb\\main.cpp"
+    ],
+    "file": "C:\\Users\\eswar\\OneDrive\\Desktop\\streetfighter\\tb\\main.cpp"
+  }
+]

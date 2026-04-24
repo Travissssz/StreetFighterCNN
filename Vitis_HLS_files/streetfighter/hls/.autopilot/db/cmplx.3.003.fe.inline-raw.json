@@ -1,0 +1,23 @@
+{
+  "0": {
+    "basicblocks": 431,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 582,
+    "file": "cnn_top.cpp",
+    "fileloc": 10,
+    "instructions": 5551,
+    "loads": {
+      "G": 226,
+      "L": 251,
+      "T": 1
+    },
+    "memory_accesses": 638,
+    "name": "street_fighter_cnn",
+    "stores": {
+      "L": 23,
+      "T": 6
+    },
+    "total_instructions": 5551
+  }
+}

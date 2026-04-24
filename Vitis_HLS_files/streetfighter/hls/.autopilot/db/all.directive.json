@@ -1,0 +1,24 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "street_fighter_cnn",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "street_fighter_cnn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "",
+    "sourceLine": 0,
+    "success": true
+  }
+]

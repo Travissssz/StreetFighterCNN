@@ -1,0 +1,802 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=./src/cnn_top.cpp' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/src/cnn_top.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=weights.h' from hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/weights.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cnn_top.h' from hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/cnn_top.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.cflags=-I./src -I./data' from hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying config ini 'tb.file=./tb/main.cpp' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/tb/main.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.cflags=-I./src -I./data' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'syn.top=street_fighter_cnn' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vitis' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying config ini 'part=xczu3eg-sbva484-1-i' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [HLS 200-1465] Applying config ini 'clock=100MHz' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.clean=1' from hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying config ini 'csim.profile_tripcount=1' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying config ini 'sim.O=1' from hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'syn.dataflow.default_channel=fifo' from hls_config.cfg(9)
+INFO: [XFORM 203-701] Set the default channel type in dataflow to FIFO.
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_alignment_byte_size=16' from hls_config.cfg(21)
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_latency=64' from hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_max_bitwidth=128' from hls_config.cfg(20)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 5.446 seconds; current allocated memory: 141.621 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'src/cnn_top.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 13.16 seconds; current allocated memory: 144.691 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 3,853 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 17,284 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,820 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,551 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,525 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,011 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,581 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,581 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,581 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,603 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,604 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,592 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46,158 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 7,538 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 7,547 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 7,584 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_139_7' is marked as complete unroll implied by the pipeline pragma (src/cnn_top.cpp:139:31)
+INFO: [HLS 214-291] Loop 'CONV2_INNER' is marked as complete unroll implied by the pipeline pragma (src/cnn_top.cpp:118:26)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_120_5' is marked as complete unroll implied by the pipeline pragma (src/cnn_top.cpp:120:35)
+INFO: [HLS 214-291] Loop 'CONV1_INNER' is marked as complete unroll implied by the pipeline pragma (src/cnn_top.cpp:75:26)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_77_2' is marked as complete unroll implied by the pipeline pragma (src/cnn_top.cpp:77:34)
+INFO: [HLS 214-186] Unrolling loop 'SOFTMAX_SUM' (src/cnn_top.cpp:191:18) in function 'street_fighter_cnn' completely with a factor of 10 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'SCORES_TO_FLOAT' (src/cnn_top.cpp:183:22) in function 'street_fighter_cnn' completely with a factor of 10 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_139_7' (src/cnn_top.cpp:139:31) in function 'street_fighter_cnn' completely with a factor of 10 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'CONV2_INNER' (src/cnn_top.cpp:118:26) in function 'street_fighter_cnn' completely with a factor of 64 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_120_5' (src/cnn_top.cpp:120:35) in function 'street_fighter_cnn' completely with a factor of 3 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'CONV1_INNER' (src/cnn_top.cpp:75:26) in function 'street_fighter_cnn' completely with a factor of 6 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_77_2' (src/cnn_top.cpp:77:34) in function 'street_fighter_cnn' completely with a factor of 5 (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'std::exp(float)' into 'street_fighter_cnn' (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'relu(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'street_fighter_cnn' (src/cnn_top.cpp:18:0)
+INFO: [HLS 214-248] Applying array_partition to 'local_input': Complete partitioning on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'conv1_out': Cyclic partitioning with factor 2 on dimension 1. (src/cnn_top.cpp:44:12)
+INFO: [HLS 214-248] Applying array_partition to 'pool1_out': Cyclic partitioning with factor 2 on dimension 1. (src/cnn_top.cpp:47:12)
+INFO: [HLS 214-248] Applying array_partition to 'final_scores': Complete partitioning on dimension 1. (src/cnn_top.cpp:53:12)
+INFO: [HLS 214-248] Applying array_partition to 'f_scores': Complete partitioning on dimension 1. (src/cnn_top.cpp:180:11)
+INFO: [HLS 214-449] Partitioning array 'CONV2_W' dimension 2 due to constant index. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0)
+INFO: [HLS 214-449] Partitioning array 'CONV2_W' dimension 3 due to constant index. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0)
+INFO: [HLS 214-449] Partitioning array 'CONV1_W' dimension 2 due to constant index. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0)
+INFO: [HLS 214-449] Partitioning array 'CONV1_W' dimension 3 due to constant index. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_0' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_1' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_2' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_3' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_4' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_5' due to pipeline pragma (src/cnn_top.cpp:73:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pool1_out_0' due to pipeline pragma (src/cnn_top.cpp:115:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pool1_out_1' due to pipeline pragma (src/cnn_top.cpp:115:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=2' for array 'conv2_out' due to pipeline pragma (src/cnn_top.cpp:137:1)
+INFO: [HLS 214-248] Applying array_partition to '_ZL7CONV2_W': Complete partitioning on dimension 2. Complete partitioning on dimension 3. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZL7CONV1_W': Complete partitioning on dimension 2. Complete partitioning on dimension 3. (C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_0': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_1': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_2': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_3': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_4': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'local_input_5': Cyclic partitioning with factor 5 on dimension 1. (src/cnn_top.cpp:41:12)
+INFO: [HLS 214-248] Applying array_partition to 'pool1_out_0': Cyclic partitioning with factor 3 on dimension 2. (src/cnn_top.cpp:47:12)
+INFO: [HLS 214-248] Applying array_partition to 'pool1_out_1': Cyclic partitioning with factor 3 on dimension 2. (src/cnn_top.cpp:47:12)
+INFO: [HLS 214-248] Applying array_partition to 'conv2_out': Complete partitioning on dimension 2. (src/cnn_top.cpp:50:12)
+INFO: [HLS 214-115] Multiple burst reads of length 15 and bit width 128 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (src/cnn_top.cpp:59:17)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 26.354 seconds; current allocated memory: 148.305 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.008 seconds; current allocated memory: 148.305 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.374 seconds; current allocated memory: 171.871 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.677 seconds; current allocated memory: 175.320 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/cnn_top.cpp:73:1) to (src/cnn_top.cpp:83:33) in function 'street_fighter_cnn'... converting 49 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/cnn_top.cpp:115:1) to (src/cnn_top.cpp:127:33) in function 'street_fighter_cnn'... converting 257 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/cnn_top.cpp:145:19) to (src/cnn_top.cpp:148:13) in function 'street_fighter_cnn'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/cnn_top.cpp:165:16) to (src/cnn_top.cpp:201:1) in function 'street_fighter_cnn'... converting 27 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'street_fighter_cnn' (src/cnn_top.cpp:10:26)...17 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 4.283 seconds; current allocated memory: 217.152 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'CONV1_OUT'(src/cnn_top.cpp:71:16) and 'VITIS_LOOP_72_1'(src/cnn_top.cpp:72:26) in function 'street_fighter_cnn' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'POOL1'(src/cnn_top.cpp:90:12) and 'VITIS_LOOP_91_3'(src/cnn_top.cpp:91:26) in function 'street_fighter_cnn' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'CONV2_OUT'(src/cnn_top.cpp:113:16) and 'VITIS_LOOP_114_4'(src/cnn_top.cpp:114:27) in function 'street_fighter_cnn' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'CONV1_OUT' (src/cnn_top.cpp:71:16) in function 'street_fighter_cnn'.
+INFO: [XFORM 203-541] Flattening a loop nest 'POOL1' (src/cnn_top.cpp:90:12) in function 'street_fighter_cnn'.
+INFO: [XFORM 203-541] Flattening a loop nest 'CONV2_OUT' (src/cnn_top.cpp:113:16) in function 'street_fighter_cnn'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 2.913 seconds; current allocated memory: 258.887 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'street_fighter_cnn' ...
+WARNING: [SYN 201-223] Checking resource limit in 'street_fighter_cnn': cannot find any operation of 'mul'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_LOAD_INPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOAD_INPUT'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'LOAD_INPUT'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.408 seconds; current allocated memory: 265.320 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 266.414 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'CONV1_OUT_VITIS_LOOP_72_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 14, loop 'CONV1_OUT_VITIS_LOOP_72_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.618 seconds; current allocated memory: 273.727 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.171 seconds; current allocated memory: 273.789 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_POOL1_VITIS_LOOP_91_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_5'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_3'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_4'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_2'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_1'. Use bind_storage pragma to override this type.
+INFO: [SCHED 204-61] Pipelining loop 'POOL1_VITIS_LOOP_91_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 8, loop 'POOL1_VITIS_LOOP_91_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.232 seconds; current allocated memory: 273.879 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 273.898 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_5'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_4'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_3'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_2'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out_1'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out'. Use bind_storage pragma to override this type.
+INFO: [SCHED 204-61] Pipelining loop 'CONV2_OUT_VITIS_LOOP_114_4'.
+WARNING: [HLS 200-882] User specified resource constraint cannot be honored operation type mul(II = 1)..
+Resolution: For help on HLS 200-882 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-882.html
+WARNING: [HLS 200-885] The II Violation in module 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4' (loop 'CONV2_OUT_VITIS_LOOP_114_4'): Unable to schedule 'mul' operation 49 bit ('mul_ln124_189', src/cnn_top.cpp:124) due to limited resources (II = 2).
+Resolution: For help on HLS 200-885 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 3, Depth = 30, loop 'CONV2_OUT_VITIS_LOOP_114_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 15 seconds. CPU system time: 0 seconds. Elapsed time: 15.043 seconds; current allocated memory: 335.406 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Starting global binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.283 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_VITIS_LOOP_136_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_136_6'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_136_6'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.783 seconds; current allocated memory: 335.406 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.045 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn_Pipeline_ARGMAX' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'ARGMAX'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'ARGMAX'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 335.406 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'street_fighter_cnn' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'pool1_out'. Use bind_storage pragma to override this type.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.265 seconds; current allocated memory: 335.406 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.195 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_LOAD_INPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_LOAD_INPUT' pipeline 'LOAD_INPUT' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'street_fighter_cnn_Pipeline_LOAD_INPUT/m_axi_gmem0_0_ARUSER' to 0.
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_LOAD_INPUT'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.332 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_0_ROM_AUbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_1_ROM_AUcud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_2_ROM_AUdEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_3_ROM_AUeOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_4_ROM_AUfYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_0_ROM_AUg8j' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_1_ROM_AUhbi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_2_ROM_AUibs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_3_ROM_AUjbC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_4_ROM_AUkbM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_0_ROM_AUlbW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_1_ROM_AUmb6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_2_ROM_AUncg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_3_ROM_AUocq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_4_ROM_AUpcA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_0_ROM_AUqcK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_1_ROM_AUrcU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_2_ROM_AUsc4' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_3_ROM_AUtde' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_4_ROM_AUudo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_0_ROM_AUvdy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_1_ROM_AUwdI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_2_ROM_AUxdS' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_3_ROM_AUyd2' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_4_ROM_AUzec' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_0_ROM_AUAem' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_1_ROM_AUBew' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_2_ROM_AUCeG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_3_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_3_ROM_AUDeQ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_4_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_4_ROM_AUEe0' due to the length limit 80
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1' pipeline 'CONV1_OUT_VITIS_LOOP_72_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_28s_22s_50_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_28s_23s_50_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_28s_24s_50_1_1': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_11_3_16_1_1': 30 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_4ns_3_9_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1'.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_CONV1_B_ROM_AUTO_1R' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_0_ROM_AUbkb' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_1_ROM_AUcud' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_2_ROM_AUdEe' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_3_ROM_AUeOg' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_0_4_ROM_AUfYi' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_0_ROM_AUg8j' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_1_ROM_AUhbi' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_2_ROM_AUibs' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_3_ROM_AUjbC' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_1_4_ROM_AUkbM' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_0_ROM_AUlbW' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_1_ROM_AUmb6' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_2_ROM_AUncg' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_3_ROM_AUocq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_2_4_ROM_AUpcA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_0_ROM_AUqcK' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_1_ROM_AUrcU' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_2_ROM_AUsc4' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_3_ROM_AUtde' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_3_4_ROM_AUudo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_0_ROM_AUvdy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_1_ROM_AUwdI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_2_ROM_AUxdS' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_3_ROM_AUyd2' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_4_4_ROM_AUzec' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_0_ROM_AUAem' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_1_ROM_AUBew' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_2_ROM_AUCeG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_3_ROM_AUDeQ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV1_OUT_VITIS_LOOP_72_1_p_ZL7CONV1_W_5_4_ROM_AUEe0' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.312 seconds; current allocated memory: 335.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_POOL1_VITIS_LOOP_91_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_POOL1_VITIS_LOOP_91_3' pipeline 'POOL1_VITIS_LOOP_91_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_POOL1_VITIS_LOOP_91_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.79 seconds; current allocated memory: 336.934 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_0_ROM_AFfa' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_1_ROM_AGfk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_2_ROM_AHfu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_0_ROM_AIfE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_1_ROM_AJfO' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_2_ROM_AKfY' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_0_ROM_ALf8' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_1_ROM_AMgi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_2_ROM_ANgs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_0_ROM_AOgC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_1_ROM_APgM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_2_ROM_AQgW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_0_ROM_ARg6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_1_ROM_AShg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_2_ROM_AThq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_0_ROM_AUhA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_1_ROM_AVhK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_2_ROM_AWhU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_0_ROM_AXh4' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_1_ROM_AYie' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_2_ROM_AZio' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_0_ROM_A0iy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_1_ROM_A1iI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_2_ROM_A2iS' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_0_ROM_A3i2' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_1_ROM_A4jc' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_2_ROM_A5jm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_0_ROM_A6jw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_1_ROM_A7jG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_2_ROM_A8jQ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_0_ROM_9j0' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_1_ROM_bak' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_2_ROM_bbk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_0_ROM_bck' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_1_ROM_bdk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_2_ROM_bek' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_0_ROM_bfk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_1_ROM_bgk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_2_ROM_bhl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_0_ROM_bil' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_1_ROM_bjl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_2_ROM_bkl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_0_ROM_bll' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_1_ROM_bml' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_2_ROM_bnm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_0_ROM_bom' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_1_ROM_bpm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_2_ROM_bqm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_0_ROM_brm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_1_ROM_bsm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_2_ROM_btn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_0_ROM_bun' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_1_ROM_bvn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_2_ROM_bwn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_0_ROM_bxn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_1_ROM_byn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_2_ROM_bzo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_0_ROM_bAo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_1_ROM_bBo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_2_ROM_bCo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_0_ROM_bDo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_1_ROM_bEo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_2_ROM_bFp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_0_ROM_bGp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_1_ROM_bHp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_2_ROM_bIp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_0_ROM_bJp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_1_ROM_bKp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_2_ROM_bLp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_0_ROM_bMq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_1_ROM_bNq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_2_ROM_bOq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_0_ROM_bPq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_1_ROM_bQq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_2_ROM_bRq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_0_ROM_bSr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_1_ROM_bTr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_2_ROM_bUr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_0_ROM_bVr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_1_ROM_bWr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_2_ROM_bXr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_0_ROM_bYs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_1_ROM_bZs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_2_ROM_b0s' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_0_ROM_b1s' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_1_ROM_b2s' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_2_ROM_b3s' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_0_ROM_b4t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_1_ROM_b5t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_2_ROM_b6t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_0_ROM_b7t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_1_ROM_b8t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_2_ROM_b9t' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_0_ROM_cau' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_1_ROM_cbu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_2_ROM_ccu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_0_ROM_cdu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_1_ROM_ceu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_2_ROM_cfu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_0_ROM_cgu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_1_ROM_chv' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_2_ROM_civ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_0_ROM_cjv' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_1_ROM_ckv' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_2_ROM_clv' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_0_ROM_cmv' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_1_ROM_cnw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_2_ROM_cow' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_0_ROM_cpw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_1_ROM_cqw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_2_ROM_crw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_0_ROM_csw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_1_ROM_ctx' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_2_ROM_cux' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_0_ROM_cvx' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_1_ROM_cwx' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_2_ROM_cxx' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_0_ROM_cyx' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_1_ROM_czy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_2_ROM_cAy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_0_ROM_cBy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_1_ROM_cCy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_2_ROM_cDy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_0_ROM_cEy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_1_ROM_cFz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_2_ROM_cGz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_0_ROM_cHz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_1_ROM_cIz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_2_ROM_cJz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_0_ROM_cKz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_1_ROM_cLz' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_2_ROM_cMA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_0_ROM_cNA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_1_ROM_cOA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_2_ROM_cPA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_0_ROM_cQA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_1_ROM_cRA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_2_ROM_cSB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_0_ROM_cTB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_1_ROM_cUB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_2_ROM_cVB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_0_ROM_cWB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_1_ROM_cXB' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_2_ROM_cYC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_0_ROM_cZC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_1_ROM_c0C' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_2_ROM_c1C' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_0_ROM_c2C' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_1_ROM_c3C' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_2_ROM_c4D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_0_ROM_c5D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_1_ROM_c6D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_2_ROM_c7D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_0_ROM_c8D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_1_ROM_c9D' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_2_ROM_daE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_0_ROM_dbE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_1_ROM_dcE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_2_ROM_ddE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_0_ROM_deE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_1_ROM_dfE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_2_ROM_dgE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_0_ROM_dhF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_1_ROM_diF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_2_ROM_djF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_0_ROM_dkF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_1_ROM_dlF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_2_ROM_dmF' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_0_ROM_dnG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_1_ROM_doG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_2_ROM_dpG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_0_ROM_dqG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_1_ROM_drG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_2_ROM_dsG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_0_ROM_dtH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_1_ROM_duH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_2_ROM_dvH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_0_ROM_dwH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_1_ROM_dxH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_2_ROM_dyH' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_0_ROM_dzI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_1_ROM_dAI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_2_ROM_dBI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_0_ROM_dCI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_1_ROM_dDI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_2_ROM_dEI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_0_ROM_dFJ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_1_ROM_dGJ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_2_ROM_dHJ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_0_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_0_ROM_dIJ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_1_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_1_ROM_dJJ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_2_ROM_AUTO_1R' to 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_2_ROM_dKJ' due to the length limit 80
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4' pipeline 'CONV2_OUT_VITIS_LOOP_114_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4' is 24776 from HDL expression: ((1'b0 == ap_block_pp0_stage1_11001) & (1'b1 == ap_CS_fsm_pp0_stage1))
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_22s_49_1_1': 59 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_23s_50_1_1': 36 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_67s_129_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_15_1_1': 102 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4'.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_CONV2_B_ROM_AUTO_1R' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_0_ROM_AFfa' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_1_ROM_AGfk' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_0_2_ROM_AHfu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_0_ROM_AIfE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_1_ROM_AJfO' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_1_2_ROM_AKfY' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_0_ROM_ALf8' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_1_ROM_AMgi' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_2_2_ROM_ANgs' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_0_ROM_AOgC' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_1_ROM_APgM' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_3_2_ROM_AQgW' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_0_ROM_ARg6' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_1_ROM_AShg' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_4_2_ROM_AThq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_0_ROM_AUhA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_1_ROM_AVhK' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_5_2_ROM_AWhU' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_0_ROM_AXh4' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_1_ROM_AYie' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_6_2_ROM_AZio' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_0_ROM_A0iy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_1_ROM_A1iI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_7_2_ROM_A2iS' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_0_ROM_A3i2' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_1_ROM_A4jc' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_8_2_ROM_A5jm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_0_ROM_A6jw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_1_ROM_A7jG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_9_2_ROM_A8jQ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_0_ROM_9j0' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_1_ROM_bak' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_10_2_ROM_bbk' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_0_ROM_bck' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_1_ROM_bdk' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_11_2_ROM_bek' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_0_ROM_bfk' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_1_ROM_bgk' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_12_2_ROM_bhl' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_0_ROM_bil' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_1_ROM_bjl' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_13_2_ROM_bkl' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_0_ROM_bll' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_1_ROM_bml' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_14_2_ROM_bnm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_0_ROM_bom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_1_ROM_bpm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_15_2_ROM_bqm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_0_ROM_brm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_1_ROM_bsm' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_16_2_ROM_btn' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_0_ROM_bun' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_1_ROM_bvn' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_17_2_ROM_bwn' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_0_ROM_bxn' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_1_ROM_byn' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_18_2_ROM_bzo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_0_ROM_bAo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_1_ROM_bBo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_19_2_ROM_bCo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_0_ROM_bDo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_1_ROM_bEo' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_20_2_ROM_bFp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_0_ROM_bGp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_1_ROM_bHp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_21_2_ROM_bIp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_0_ROM_bJp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_1_ROM_bKp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_22_2_ROM_bLp' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_0_ROM_bMq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_1_ROM_bNq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_23_2_ROM_bOq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_0_ROM_bPq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_1_ROM_bQq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_24_2_ROM_bRq' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_0_ROM_bSr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_1_ROM_bTr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_25_2_ROM_bUr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_0_ROM_bVr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_1_ROM_bWr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_26_2_ROM_bXr' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_0_ROM_bYs' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_1_ROM_bZs' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_27_2_ROM_b0s' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_0_ROM_b1s' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_1_ROM_b2s' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_28_2_ROM_b3s' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_0_ROM_b4t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_1_ROM_b5t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_29_2_ROM_b6t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_0_ROM_b7t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_1_ROM_b8t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_30_2_ROM_b9t' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_0_ROM_cau' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_1_ROM_cbu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_31_2_ROM_ccu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_0_ROM_cdu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_1_ROM_ceu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_32_2_ROM_cfu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_0_ROM_cgu' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_1_ROM_chv' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_33_2_ROM_civ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_0_ROM_cjv' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_1_ROM_ckv' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_34_2_ROM_clv' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_0_ROM_cmv' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_1_ROM_cnw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_35_2_ROM_cow' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_0_ROM_cpw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_1_ROM_cqw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_36_2_ROM_crw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_0_ROM_csw' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_1_ROM_ctx' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_37_2_ROM_cux' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_0_ROM_cvx' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_1_ROM_cwx' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_38_2_ROM_cxx' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_0_ROM_cyx' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_1_ROM_czy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_39_2_ROM_cAy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_0_ROM_cBy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_1_ROM_cCy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_40_2_ROM_cDy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_0_ROM_cEy' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_1_ROM_cFz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_41_2_ROM_cGz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_0_ROM_cHz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_1_ROM_cIz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_42_2_ROM_cJz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_0_ROM_cKz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_1_ROM_cLz' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_43_2_ROM_cMA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_0_ROM_cNA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_1_ROM_cOA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_44_2_ROM_cPA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_0_ROM_cQA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_1_ROM_cRA' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_45_2_ROM_cSB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_0_ROM_cTB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_1_ROM_cUB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_46_2_ROM_cVB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_0_ROM_cWB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_1_ROM_cXB' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_47_2_ROM_cYC' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_0_ROM_cZC' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_1_ROM_c0C' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_48_2_ROM_c1C' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_0_ROM_c2C' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_1_ROM_c3C' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_49_2_ROM_c4D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_0_ROM_c5D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_1_ROM_c6D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_50_2_ROM_c7D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_0_ROM_c8D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_1_ROM_c9D' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_51_2_ROM_daE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_0_ROM_dbE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_1_ROM_dcE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_52_2_ROM_ddE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_0_ROM_deE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_1_ROM_dfE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_53_2_ROM_dgE' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_0_ROM_dhF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_1_ROM_diF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_54_2_ROM_djF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_0_ROM_dkF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_1_ROM_dlF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_55_2_ROM_dmF' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_0_ROM_dnG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_1_ROM_doG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_56_2_ROM_dpG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_0_ROM_dqG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_1_ROM_drG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_57_2_ROM_dsG' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_0_ROM_dtH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_1_ROM_duH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_58_2_ROM_dvH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_0_ROM_dwH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_1_ROM_dxH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_59_2_ROM_dyH' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_0_ROM_dzI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_1_ROM_dAI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_60_2_ROM_dBI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_0_ROM_dCI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_1_ROM_dDI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_61_2_ROM_dEI' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_0_ROM_dFJ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_1_ROM_dGJ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_62_2_ROM_dHJ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_0_ROM_dIJ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_1_ROM_dJJ' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_p_ZL7CONV2_W_63_2_ROM_dKJ' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 34.271 seconds; current allocated memory: 369.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_VITIS_LOOP_136_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_VITIS_LOOP_136_6' pipeline 'VITIS_LOOP_136_6' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_25s_52_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_41ns_43ns_82_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_VITIS_LOOP_136_6'.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_street_fighter_cnn_Pipeline_VITIS_LOOP_136_6_FC_W_ROM_AUTO_1R' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3 seconds. CPU system time: 4 seconds. Elapsed time: 7.602 seconds; current allocated memory: 445.430 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn_Pipeline_ARGMAX' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'street_fighter_cnn_Pipeline_ARGMAX' pipeline 'ARGMAX' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_19_4_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn_Pipeline_ARGMAX'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.286 seconds; current allocated memory: 445.430 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'street_fighter_cnn' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/input_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/prediction' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'prediction' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/confidence' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'confidence' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/dbg_in0' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'dbg_in0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/dbg_l1_0' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'dbg_l1_0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/dbg_gap0' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'dbg_gap0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'street_fighter_cnn/dbg_score0' to 's_axilite & ap_none'.
+WARNING: [RTGEN 206-101] Port 'dbg_score0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'street_fighter_cnn' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'input_r', 'prediction', 'confidence', 'dbg_in0', 'dbg_l1_0', 'dbg_gap0', 'dbg_score0' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'ctlz_16_16_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_10_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fexp_32ns_32ns_32_8_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsub_32ns_32ns_32_5_full_dsp_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_21_4_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'street_fighter_cnn'.
+INFO: [RTMG 210-279] Implementing memory 'street_fighter_cnn_FC_B_ROM_AUTO_1R' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'street_fighter_cnn_local_input_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'street_fighter_cnn_local_input_5_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'street_fighter_cnn_conv1_out_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-2167] Implementing memory 'street_fighter_cnn_pool1_out_RAM_1WNR_AUTO_1R1W' using auto RAMs with 16 copies to ensure enough ports to satisfy II or latency constraints.
+INFO: [RTMG 210-278] Implementing memory 'street_fighter_cnn_conv2_out_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.074 seconds; current allocated memory: 445.430 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 2 seconds. CPU system time: 3 seconds. Elapsed time: 13.526 seconds; current allocated memory: 452.793 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 5.172 seconds; current allocated memory: 477.895 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for street_fighter_cnn.
+INFO: [VLOG 209-307] Generating Verilog RTL for street_fighter_cnn.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
+INFO: [HLS 200-112] Total CPU user time: 41 seconds. Total CPU system time: 14 seconds. Total elapsed time: 144.07 seconds; peak allocated memory: 477.949 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 2m 31s

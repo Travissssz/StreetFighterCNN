@@ -1,0 +1,123 @@
+{
+  "0": {
+    "basicblocks": 127,
+    "calls": "4 4",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "cnn_top.cpp",
+    "fileloc": 10,
+    "instructions": 588,
+    "loads": {
+      "L": 19
+    },
+    "memory_accesses": 39,
+    "name": "street_fighter_cnn",
+    "stores": {
+      "L": 13,
+      "T": 6
+    },
+    "total_instructions": 3853
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 6145,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 2371585
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 321,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.4",
+    "total_instructions": 123521
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "5 8 1 6 2 7",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 7,
+    "memory_accesses": 0,
+    "name": "",
+    "total_instructions": 3277153
+  },
+  "4": {
+    "basicblocks": 4,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "cnn_top.cpp",
+    "fileloc": 5,
+    "instructions": 16,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 0,
+    "name": "relu",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 126
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 1921,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init",
+    "total_instructions": 741121
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 33,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.3",
+    "total_instructions": 12353
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 11,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.5",
+    "total_instructions": 3861
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "cnn_top.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 65,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 24705
+  }
+}

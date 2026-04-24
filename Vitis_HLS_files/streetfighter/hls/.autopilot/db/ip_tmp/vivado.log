@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Apr  6 16:21:33 2026
+# Process ID         : 16672
+# Current directory  : C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/.autopilot/db/ip_tmp
+# Command line       : vivado.exe -notrace -log vivado.log -mode batch -source run_vivado_gen_ip.tcl
+# Log file           : C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/.autopilot/db/ip_tmp/vivado.log
+# Journal file       : C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/.autopilot/db/ip_tmp\vivado.jou
+# Running On         : Travissssss
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 5900HX with Radeon Graphics        
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16539 MB
+# Swap memory        : 20401 MB
+# Total Virtual      : 36940 MB
+# Available Virtual  : 24305 MB
+#-----------------------------------------------------------
+source run_vivado_gen_ip.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/.autopilot/db/ip_tmp'
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 530.473 ; gain = 219.270
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/eswar/OneDrive/Desktop/2025.2/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 16:21:50 2026...

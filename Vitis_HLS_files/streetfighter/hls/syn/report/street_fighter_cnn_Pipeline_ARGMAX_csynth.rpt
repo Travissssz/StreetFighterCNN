@@ -1,0 +1,159 @@
+
+
+================================================================
+== Vitis HLS Report for 'street_fighter_cnn_Pipeline_ARGMAX'
+================================================================
+* Date:           Mon Apr  6 15:58:53 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        streetfighter
+* Solution:       hls (Vitis Kernel Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.925 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       11|       11|  0.110 us|  0.110 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- ARGMAX  |        9|        9|         1|          1|          1|     9|       yes|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     97|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       0|     49|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     45|    -|
+|Register         |        -|    -|      55|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      55|    191|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      432|  360|  141120|  70560|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------------+-----------------------+---------+----+---+----+-----+
+    |          Instance          |         Module        | BRAM_18K| DSP| FF| LUT| URAM|
+    +----------------------------+-----------------------+---------+----+---+----+-----+
+    |sparsemux_19_4_16_1_1_U621  |sparsemux_19_4_16_1_1  |        0|   0|  0|  49|    0|
+    +----------------------------+-----------------------+---------+----+---+----+-----+
+    |Total                       |                       |        0|   0|  0|  49|    0|
+    +----------------------------+-----------------------+---------+----+---+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |add_ln157_fu_238_p2     |         +|   0|  0|  12|           4|           1|
+    |icmp_ln157_fu_165_p2    |      icmp|   0|  0|  12|           4|           4|
+    |icmp_ln160_fu_212_p2    |      icmp|   0|  0|  23|          16|          16|
+    |best_class_1_fu_230_p3  |    select|   0|  0|  32|           1|          32|
+    |max_val_1_fu_218_p3     |    select|   0|  0|  16|           1|          16|
+    |ap_enable_pp0           |       xor|   0|  0|   2|           1|           2|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0|  97|          27|          71|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |best_class_fu_72         |   9|          2|   32|         64|
+    |i_fu_76                  |   9|          2|    4|          8|
+    |max_val_fu_68            |   9|          2|   16|         32|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  45|         10|   54|        108|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_done_reg              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |best_class_fu_72         |  32|   0|   32|          0|
+    |i_fu_76                  |   4|   0|    4|          0|
+    |max_val_fu_68            |  16|   0|   16|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    |  55|   0|   55|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+------------------------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |            Source Object           |    C Type    |
++-----------------------+-----+-----+------------+------------------------------------+--------------+
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|ap_rst                 |   in|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|ap_start               |   in|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|ap_done                |  out|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|ap_idle                |  out|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|ap_ready               |  out|    1|  ap_ctrl_hs|  street_fighter_cnn_Pipeline_ARGMAX|  return value|
+|p_0_0_080134           |   in|   16|     ap_none|                        p_0_0_080134|        scalar|
+|final_scores           |   in|   16|     ap_none|                        final_scores|        scalar|
+|final_scores_1         |   in|   16|     ap_none|                      final_scores_1|        scalar|
+|final_scores_2         |   in|   16|     ap_none|                      final_scores_2|        scalar|
+|final_scores_3         |   in|   16|     ap_none|                      final_scores_3|        scalar|
+|final_scores_4         |   in|   16|     ap_none|                      final_scores_4|        scalar|
+|final_scores_5         |   in|   16|     ap_none|                      final_scores_5|        scalar|
+|final_scores_6         |   in|   16|     ap_none|                      final_scores_6|        scalar|
+|final_scores_7         |   in|   16|     ap_none|                      final_scores_7|        scalar|
+|final_scores_8         |   in|   16|     ap_none|                      final_scores_8|        scalar|
+|best_class_out         |  out|   32|      ap_vld|                      best_class_out|       pointer|
+|best_class_out_ap_vld  |  out|    1|      ap_vld|                      best_class_out|       pointer|
++-----------------------+-----+-----+------------+------------------------------------+--------------+
+

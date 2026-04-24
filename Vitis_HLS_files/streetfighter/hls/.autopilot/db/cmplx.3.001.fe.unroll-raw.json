@@ -1,0 +1,38 @@
+{
+  "0": {
+    "basicblocks": 7650,
+    "calls": "1 1",
+    "control_depth": 5,
+    "def_use_depth": 582,
+    "file": "cnn_top.cpp",
+    "fileloc": 10,
+    "instructions": 17172,
+    "loads": {
+      "G": 678,
+      "L": 314,
+      "T": 3
+    },
+    "memory_accesses": 1328,
+    "name": "street_fighter_cnn",
+    "stores": {
+      "L": 17,
+      "T": 6
+    },
+    "total_instructions": 17284
+  },
+  "1": {
+    "basicblocks": 10,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "cnn_top.cpp",
+    "fileloc": 5,
+    "instructions": 14,
+    "memory_accesses": 0,
+    "name": "relu",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 14
+  }
+}

@@ -1,0 +1,6 @@
+   Build using "C:/Users/eswar/OneDrive/Desktop/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_street_fighter_cnn.cpp
+   Compiling cnn_top.cpp_pre.cpp.tb.cpp
+   Compiling main.cpp_pre.cpp.tb.cpp
+   Compiling apatb_street_fighter_cnn_ir.ll
+   Generating cosim.tv.exe

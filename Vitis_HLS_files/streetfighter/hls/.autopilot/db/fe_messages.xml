@@ -1,0 +1,242 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=street_fighter_cnn" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:20:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=input depth=120 bundle=gmem0 offset=slave max_read_burst_length=16" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:21:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=input bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:22:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=prediction bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:23:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=confidence bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:24:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=dbg_in0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:25:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=dbg_l1_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:26:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=dbg_gap0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:27:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=dbg_score0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:28:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:36:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="operation instances=mul limit=200" ARG_PragmaType="allocation" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:42:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=local_input complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:45:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=conv1_out cyclic factor=2 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:48:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=pool1_out cyclic factor=2 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:54:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=final_scores complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:60:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:73:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:76:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:92:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:115:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:116:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="operation instances=mul limit=96" ARG_PragmaType="allocation" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:123:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val op=mul impl=fabric" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:137:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:140:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:158:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:181:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=f_scores complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:184:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="src/cnn_top.cpp:192:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="street_fighter_cnn" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="src/cnn_top.cpp:139:31" msg_body="Loop 'VITIS_LOOP_139_7' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_139_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="src/cnn_top.cpp:118:26" msg_body="Loop 'CONV2_INNER' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="CONV2_INNER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="src/cnn_top.cpp:120:35" msg_body="Loop 'VITIS_LOOP_120_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_120_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="src/cnn_top.cpp:75:26" msg_body="Loop 'CONV1_INNER' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="CONV1_INNER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="src/cnn_top.cpp:77:34" msg_body="Loop 'VITIS_LOOP_77_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_77_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'SOFTMAX_SUM' (src/cnn_top.cpp:191:18) in function 'street_fighter_cnn' completely with a factor of 10">
+        <args Factor="10" LoopLoc="src/cnn_top.cpp:191:18" LoopName="SOFTMAX_SUM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'SCORES_TO_FLOAT' (src/cnn_top.cpp:183:22) in function 'street_fighter_cnn' completely with a factor of 10">
+        <args Factor="10" LoopLoc="src/cnn_top.cpp:183:22" LoopName="SCORES_TO_FLOAT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'VITIS_LOOP_139_7' (src/cnn_top.cpp:139:31) in function 'street_fighter_cnn' completely with a factor of 10">
+        <args Factor="10" LoopLoc="src/cnn_top.cpp:139:31" LoopName="VITIS_LOOP_139_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'CONV2_INNER' (src/cnn_top.cpp:118:26) in function 'street_fighter_cnn' completely with a factor of 64">
+        <args Factor="64" LoopLoc="src/cnn_top.cpp:118:26" LoopName="CONV2_INNER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'VITIS_LOOP_120_5' (src/cnn_top.cpp:120:35) in function 'street_fighter_cnn' completely with a factor of 3">
+        <args Factor="3" LoopLoc="src/cnn_top.cpp:120:35" LoopName="VITIS_LOOP_120_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'CONV1_INNER' (src/cnn_top.cpp:75:26) in function 'street_fighter_cnn' completely with a factor of 6">
+        <args Factor="6" LoopLoc="src/cnn_top.cpp:75:26" LoopName="CONV1_INNER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Unrolling loop 'VITIS_LOOP_77_2' (src/cnn_top.cpp:77:34) in function 'street_fighter_cnn' completely with a factor of 5">
+        <args Factor="5" LoopLoc="src/cnn_top.cpp:77:34" LoopName="VITIS_LOOP_77_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Inlining function 'std::exp(float)' into 'street_fighter_cnn'">
+        <args Callee="std::exp(float)" Callee-DebugLoc="File {C:/Users/eswar/OneDrive/Desktop/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\cmath} Line 223 Column 0" Caller="street_fighter_cnn" Caller-DebugLoc="File src/cnn_top.cpp Line 18 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="src/cnn_top.cpp:18:0" msg_body="Inlining function 'relu(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'street_fighter_cnn'">
+        <args Callee="relu(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File src/cnn_top.cpp Line 5 Column 0" Caller="street_fighter_cnn" Caller-DebugLoc="File src/cnn_top.cpp Line 18 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="local_input"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:44:12" msg_body="Applying array_partition to 'conv1_out': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="conv1_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:47:12" msg_body="Applying array_partition to 'pool1_out': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="pool1_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:53:12" msg_body="Applying array_partition to 'final_scores': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="final_scores"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:180:11" msg_body="Applying array_partition to 'f_scores': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="f_scores"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0" msg_body="Partitioning array 'CONV2_W' dimension 2 due to constant index.">
+        <args Dim="2" Value="CONV2_W"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0" msg_body="Partitioning array 'CONV2_W' dimension 3 due to constant index.">
+        <args Dim="3" Value="CONV2_W"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0" msg_body="Partitioning array 'CONV1_W' dimension 2 due to constant index.">
+        <args Dim="2" Value="CONV1_W"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0" msg_body="Partitioning array 'CONV1_W' dimension 3 due to constant index.">
+        <args Dim="3" Value="CONV1_W"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_0 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_0">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_0" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_0' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_1 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_1">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_1" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_1"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_1' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_2 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_2">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_2" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_2"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_2' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_3 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_3">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_3" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_3"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_3' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_3" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_4 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_4">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_4" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_4"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_4' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_4" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="array_partition dim=1 type=cyclic factor=5 variable=local_input_5 1 street_fighter_cnn src/cnn_top.cpp:41:12 src/cnn_top.cpp:73:1local_input_5">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=local_input_5" PragmaSrcLoc="src/cnn_top.cpp:73:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 73 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:41:12" VarName="local_input_5"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:73:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'local_input_5' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="local_input_5" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:47:12" msg_body="array_partition dim=2 type=cyclic factor=3 variable=pool1_out_0 1 street_fighter_cnn src/cnn_top.cpp:47:12 src/cnn_top.cpp:115:1pool1_out_0">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=2 type=cyclic factor=3 variable=pool1_out_0" PragmaSrcLoc="src/cnn_top.cpp:115:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 115 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:47:12" VarName="pool1_out_0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:115:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pool1_out_0' due to pipeline pragma">
+        <args Dim="2" Factor="3" Mode="cyclic" Name="pool1_out_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:47:12" msg_body="array_partition dim=2 type=cyclic factor=3 variable=pool1_out_1 1 street_fighter_cnn src/cnn_top.cpp:47:12 src/cnn_top.cpp:115:1pool1_out_1">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=2 type=cyclic factor=3 variable=pool1_out_1" PragmaSrcLoc="src/cnn_top.cpp:115:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 115 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:47:12" VarName="pool1_out_1"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:115:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pool1_out_1' due to pipeline pragma">
+        <args Dim="2" Factor="3" Mode="cyclic" Name="pool1_out_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="src/cnn_top.cpp:50:12" msg_body="array_partition dim=2 type=complete  variable=conv2_out 1 street_fighter_cnn src/cnn_top.cpp:50:12 src/cnn_top.cpp:137:1conv2_out">
+        <args PragmaFunction="street_fighter_cnn" PragmaIsAuto="1" PragmaOptions="dim=2 type=complete  variable=conv2_out" PragmaSrcLoc="src/cnn_top.cpp:137:1" PragmaSrcLoc-DebugLoc="File src/cnn_top.cpp Line 137 Column 1" PragmaType="array_partition" VarLoc="src/cnn_top.cpp:50:12" VarName="conv2_out"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="src/cnn_top.cpp:137:1" msg_body="Inferring pragma 'array_partition type=complete dim=2' for array 'conv2_out' due to pipeline pragma">
+        <args Dim="2" Mode="complete" Name="conv2_out" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:523:0" msg_body="Applying array_partition to '_ZL7CONV2_W': Complete partitioning on dimension 2. Complete partitioning on dimension 3.">
+        <args Dim="islist 2 3" Mode="islist Complete Complete" UOName="_ZL7CONV2_W"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/eswar/OneDrive/Desktop/streetfighter/src/weights.h:6:0" msg_body="Applying array_partition to '_ZL7CONV1_W': Complete partitioning on dimension 2. Complete partitioning on dimension 3.">
+        <args Dim="islist 2 3" Mode="islist Complete Complete" UOName="_ZL7CONV1_W"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_0': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_1': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_2': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_3': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_4': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:41:12" msg_body="Applying array_partition to 'local_input_5': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="local_input_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:47:12" msg_body="Applying array_partition to 'pool1_out_0': Cyclic partitioning with factor 3 on dimension 2.">
+        <args Dim="2" Factor="3" Mode="Cyclic" UOName="pool1_out_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:47:12" msg_body="Applying array_partition to 'pool1_out_1': Cyclic partitioning with factor 3 on dimension 2.">
+        <args Dim="2" Factor="3" Mode="Cyclic" UOName="pool1_out_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="src/cnn_top.cpp:50:12" msg_body="Applying array_partition to 'conv2_out': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="conv2_out"/>
+    </msg>
+</xilinx:hls_fe_msgs>

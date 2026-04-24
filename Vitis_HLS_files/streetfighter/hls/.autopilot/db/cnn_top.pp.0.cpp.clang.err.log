@@ -1,0 +1,85 @@
+directive:1:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=name=street_fighter_cnn_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=street_fighter_cnn
+^
+src/cnn_top.cpp:20:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=m_axi port=input depth=120 bundle=gmem0 offset=slave max_read_burst_length=16_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=input depth=120 bundle=gmem0 offset=slave max_read_burst_length=16
+^
+src/cnn_top.cpp:21:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=input bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=input bundle=control
+^
+src/cnn_top.cpp:22:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=prediction bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=prediction bundle=control
+^
+src/cnn_top.cpp:23:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=confidence bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=confidence bundle=control
+^
+src/cnn_top.cpp:24:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=dbg_in0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=dbg_in0 bundle=control
+^
+src/cnn_top.cpp:25:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=dbg_l1_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=dbg_l1_0 bundle=control
+^
+src/cnn_top.cpp:26:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=dbg_gap0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=dbg_gap0 bundle=control
+^
+src/cnn_top.cpp:27:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=dbg_score0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=dbg_score0 bundle=control
+^
+src/cnn_top.cpp:28:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=return bundle=control
+^
+src/cnn_top.cpp:36:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=operation instances=mul limit=200_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=200
+^
+src/cnn_top.cpp:42:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=local_input complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=local_input complete dim=1
+^
+src/cnn_top.cpp:45:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=conv1_out cyclic factor=2 dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=conv1_out cyclic factor=2 dim=1
+^
+src/cnn_top.cpp:48:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=pool1_out cyclic factor=2 dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=pool1_out cyclic factor=2 dim=1
+^
+src/cnn_top.cpp:54:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=final_scores complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=final_scores complete dim=1
+^
+src/cnn_top.cpp:60:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:73:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:76:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+^
+src/cnn_top.cpp:92:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:115:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:116:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=operation instances=mul limit=96_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=96
+^
+src/cnn_top.cpp:123:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=val op=mul impl=fabric_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS BIND_OP variable=val op=mul impl=fabric
+^
+src/cnn_top.cpp:137:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:140:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+^
+src/cnn_top.cpp:158:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+^
+src/cnn_top.cpp:181:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=variable=f_scores complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=f_scores complete dim=1
+^
+src/cnn_top.cpp:184:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+^
+src/cnn_top.cpp:192:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=street_fighter_cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+^
+28 warnings generated.

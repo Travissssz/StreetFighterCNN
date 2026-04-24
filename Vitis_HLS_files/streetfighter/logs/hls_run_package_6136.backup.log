@@ -1,0 +1,126 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter'.
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=./src/cnn_top.cpp' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/src/cnn_top.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=weights.h' from hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/weights.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cnn_top.h' from hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/cnn_top.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.cflags=-I./src -I./data' from hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying config ini 'tb.file=./tb/main.cpp' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/eswar/OneDrive/Desktop/streetfighter/tb/main.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.cflags=-I./src -I./data' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'syn.top=street_fighter_cnn' from hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vitis' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying config ini 'part=xczu3eg-sbva484-1-i' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=100MHz' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.clean=1' from hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying config ini 'csim.profile_tripcount=1' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying config ini 'sim.O=1' from hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'syn.dataflow.default_channel=fifo' from hls_config.cfg(9)
+INFO: [XFORM 203-701] Set the default channel type in dataflow to FIFO.
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_alignment_byte_size=16' from hls_config.cfg(21)
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_latency=64' from hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying config ini 'syn.interface.m_axi_max_bitwidth=128' from hls_config.cfg(20)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Apr  6 16:21:11 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/hls_data.json outdir=C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip srcdir=C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/misc
+INFO: Copied 494 verilog file(s) to C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/verilog
+INFO: Copied 267 vhdl file(s) to C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/drivers
+Generating 7 subcores in C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/subcore_prj:
+impl/misc/street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip.tcl
+impl/misc/street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/subcore_prj'
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 530.992 ; gain = 219.891
+INFO: Using COE_DIR=C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/verilog
+INFO: Generating street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/eswar/OneDrive/Desktop/2025.2/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip via file impl/misc/street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip via file impl/misc/street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip via file impl/misc/street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip via file impl/misc/street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip.tcl
+INFO: Generating street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: Done generating street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: Found 1 unique subcore IP: xilinx.com:ip:floating_point:7.1
+INFO: Copied 7 subcore files: C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/street_fighter_cnn_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip/street_fighter_cnn_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip/street_fighter_cnn_fdiv_32ns_32ns_32_10_no_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip/street_fighter_cnn_fexp_32ns_32ns_32_8_full_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip/street_fighter_cnn_fmul_32ns_32ns_32_4_max_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip/street_fighter_cnn_fpext_32ns_64_2_no_dsp_1_ip.xci C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/ip/street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip/street_fighter_cnn_fsub_32ns_32ns_32_5_full_dsp_1_ip.xci
+INFO: Import ports from HDL: C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/hdl/vhdl/street_fighter_cnn.vhd (street_fighter_cnn)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/eswar/OneDrive/Desktop/2025.2/Vivado/data/ip'.
+INFO: Add axi4full interface m_axi_gmem0
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/component.xml
+ipx::archive_core: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 597.508 ; gain = 0.000
+INFO: Created IP archive C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/impl/ip/xilinx_com_hls_street_fighter_cnn_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 16:21:58 2026...
+INFO: [HLS 200-802] Generated output file streetfighter/street_fighter_cnn.zip
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 54.496 seconds; peak allocated memory: 217.477 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 59s

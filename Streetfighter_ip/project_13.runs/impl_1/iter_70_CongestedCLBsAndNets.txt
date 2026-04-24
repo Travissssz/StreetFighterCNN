@@ -1,0 +1,10 @@
+List of CLB Tiles
+CLEM_X20Y168
+CLEL_R_X20Y168
+CLEM_X4Y88
+CLEL_R_X4Y88
+
+List of Congested Nets
+design_1_i/street_fighter_cnn_0/inst/grp_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_fu_1156/mul_ln124_130_reg_37060_pp0_iter7_reg[45]
+design_1_i/street_fighter_cnn_0/inst/grp_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_fu_1156/mul_ln124_128_reg_37052_pp0_iter7_reg[45]
+

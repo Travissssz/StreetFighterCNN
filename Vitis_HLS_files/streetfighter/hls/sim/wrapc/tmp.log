@@ -1,0 +1,45 @@
+
+--- STARTING VERIFICATION ---
+Sample:          jab_971.csv | Pred: 0 | Target: 0 | Confidence: 99.99% [PASS]
+    dbg_in0=-0.687500 | dbg_l1_0=0.000000 | dbg_gap0=0.000000 | dbg_score0=6.798828
+Sample:         jab_1203.csv | Pred: 0 | Target: 0 | Confidence: 99.99% [PASS]
+    dbg_in0=-0.979492 | dbg_l1_0=0.015625 | dbg_gap0=0.048828 | dbg_score0=6.668945
+Sample:  left_guard_1044.csv | Pred: 1 | Target: 1 | Confidence: 97.29% [PASS]
+    dbg_in0=-0.472656 | dbg_l1_0=0.005859 | dbg_gap0=0.003906 | dbg_score0=-1.539062
+Sample:   left_guard_240.csv | Pred: 1 | Target: 1 | Confidence: 97.66% [PASS]
+    dbg_in0=-0.711914 | dbg_l1_0=0.000000 | dbg_gap0=0.024414 | dbg_score0=-1.561523
+Sample:    left_hook_202.csv | Pred: 2 | Target: 2 | Confidence: 99.95% [PASS]
+    dbg_in0=0.067383 | dbg_l1_0=0.120117 | dbg_gap0=0.068359 | dbg_score0=-5.131836
+Sample:    left_hook_163.csv | Pred: 2 | Target: 2 | Confidence: 99.99% [PASS]
+    dbg_in0=-0.007812 | dbg_l1_0=0.252930 | dbg_gap0=0.000000 | dbg_score0=-7.753906
+Sample:  left_upper_1255.csv | Pred: 3 | Target: 3 | Confidence: 99.95% [PASS]
+    dbg_in0=-1.311523 | dbg_l1_0=0.000000 | dbg_gap0=1.231445 | dbg_score0=-4.831055
+Sample:  left_upper_1187.csv | Pred: 3 | Target: 3 | Confidence: 98.21% [PASS]
+    dbg_in0=-1.241211 | dbg_l1_0=0.000000 | dbg_gap0=0.960938 | dbg_score0=-5.439453
+Sample: protect_left_826.csv | Pred: 4 | Target: 4 | Confidence: 100.00% [PASS]
+    dbg_in0=-1.738281 | dbg_l1_0=0.000000 | dbg_gap0=0.779297 | dbg_score0=-4.183594
+Sample: protect_left_1159.csv | Pred: 4 | Target: 4 | Confidence: 99.67% [PASS]
+    dbg_in0=-0.279297 | dbg_l1_0=0.216797 | dbg_gap0=0.299805 | dbg_score0=-6.132812
+Sample: protect_right_79.csv | Pred: 5 | Target: 5 | Confidence: 99.91% [PASS]
+    dbg_in0=0.046875 | dbg_l1_0=0.000000 | dbg_gap0=0.724609 | dbg_score0=-7.355469
+Sample: protect_right_1057.csv | Pred: 5 | Target: 5 | Confidence: 99.93% [PASS]
+    dbg_in0=1.242188 | dbg_l1_0=0.000000 | dbg_gap0=0.958008 | dbg_score0=-6.694336
+Sample:       punch_1053.csv | Pred: 6 | Target: 6 | Confidence: 100.00% [PASS]
+    dbg_in0=0.797852 | dbg_l1_0=0.000000 | dbg_gap0=0.329102 | dbg_score0=-7.942383
+Sample:        punch_175.csv | Pred: 6 | Target: 6 | Confidence: 100.00% [PASS]
+    dbg_in0=0.967773 | dbg_l1_0=0.000000 | dbg_gap0=1.409180 | dbg_score0=-11.847656
+Sample:  right_guard_409.csv | Pred: 7 | Target: 7 | Confidence: 99.75% [PASS]
+    dbg_in0=0.681641 | dbg_l1_0=0.000000 | dbg_gap0=0.143555 | dbg_score0=-3.431641
+Sample:  right_guard_435.csv | Pred: 7 | Target: 7 | Confidence: 99.76% [PASS]
+    dbg_in0=0.327148 | dbg_l1_0=0.000000 | dbg_gap0=0.374023 | dbg_score0=-4.833984
+Sample:   right_hook_930.csv | Pred: 8 | Target: 8 | Confidence: 100.00% [PASS]
+    dbg_in0=0.189453 | dbg_l1_0=0.000000 | dbg_gap0=0.000000 | dbg_score0=-7.125977
+Sample:  right_hook_1047.csv | Pred: 8 | Target: 8 | Confidence: 99.94% [PASS]
+    dbg_in0=1.301758 | dbg_l1_0=0.000000 | dbg_gap0=0.000000 | dbg_score0=-8.451172
+Sample:  right_upper_367.csv | Pred: 9 | Target: 9 | Confidence: 100.00% [PASS]
+    dbg_in0=0.666992 | dbg_l1_0=0.000000 | dbg_gap0=0.818359 | dbg_score0=-6.060547
+Sample:  right_upper_774.csv | Pred: 9 | Target: 9 | Confidence: 100.00% [PASS]
+    dbg_in0=-0.056641 | dbg_l1_0=0.000000 | dbg_gap0=1.309570 | dbg_score0=-9.352539
+
+--- VERIFICATION COMPLETE ---
+Accuracy: 100.00% (20/20)

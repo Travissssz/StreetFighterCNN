@@ -1,0 +1,173 @@
+04/06/26 15:56:42: Running xcd server. This server was built by gradle.
+04/06/26 15:56:42: Server was asked to start on port: '65257'
+04/06/26 15:56:42: Server is using token UUID: '0a3f7207-d8ec-40c5-a390-148612e2d8a7'
+04/06/26 15:56:42: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 15:56:42: Attempting to start server on port '65257'
+04/06/26 15:56:42: Running Dispatch Server
+04/06/26 15:56:42: Version 2.2.0
+04/06/26 15:56:45: Dispatch Server: Accepted socket connection from client
+04/06/26 15:56:45: Starting Socket connection
+04/06/26 15:56:45: EXCHANGE_TOKEN received, server token: 0a3f7207-d8ec-40c5-a390-148612e2d8a7, passed token: 0a3f7207-d8ec-40c5-a390-148612e2d8a7
+04/06/26 15:56:45: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 15:56:45: SESSION_MGR: creating session with session uuid: '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' and name 'v++_compile_streetfighter'
+04/06/26 15:56:45: KERNEL_SVC: creating session with uuid: '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' and name 'v++_compile_streetfighter'
+04/06/26 15:56:45: GUIDANCE_SMGR: creating guidance session with uuid: '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' and name 'v++_compile_streetfighter'
+04/06/26 15:56:45: SYSTEM_DIAGRAM: creating session with uuid: '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' and name 'v++_compile_streetfighter'
+04/06/26 15:56:53: Dispatch Server: Accepted socket connection from client
+04/06/26 15:56:53: Starting Socket connection
+04/06/26 15:59:14: SESSION_MGR: closing session for UUID '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' with name 'v++_compile_streetfighter'
+04/06/26 15:59:14: KERNEL_SVC: closing session for UUID '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' with name 'v++_compile_streetfighter'
+04/06/26 15:59:14: GUIDANCE_SMGR: closing session for UUID '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' with name 'v++_compile_streetfighter'
+04/06/26 15:59:14: SYSTEM_DIAGRAM: closing session for UUID '5d6723e4-cafe-4fab-bc5e-a801fca8fcd8' with name 'v++_compile_streetfighter'
+04/06/26 15:59:14: STOP_SERVER received, server token: 0a3f7207-d8ec-40c5-a390-148612e2d8a7, passed token: 0a3f7207-d8ec-40c5-a390-148612e2d8a7
+04/06/26 15:59:14: Socket received request to stop server.
+04/06/26 15:59:14: Dispatch Server: do_await_stop
+04/06/26 15:59:14: SERVER: destructor for server bound to port 65257
+04/06/26 16:07:50: Running xcd server. This server was built by gradle.
+04/06/26 16:07:50: Server was asked to start on port: '52278'
+04/06/26 16:07:50: Server is using token UUID: '8f00ed01-0054-44d1-8f5e-0b23f1b97ce5'
+04/06/26 16:07:50: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:07:50: Attempting to start server on port '52278'
+04/06/26 16:07:50: Running Dispatch Server
+04/06/26 16:07:50: Version 2.2.0
+04/06/26 16:07:53: Dispatch Server: Accepted socket connection from client
+04/06/26 16:07:53: Starting Socket connection
+04/06/26 16:07:53: EXCHANGE_TOKEN received, server token: 8f00ed01-0054-44d1-8f5e-0b23f1b97ce5, passed token: 8f00ed01-0054-44d1-8f5e-0b23f1b97ce5
+04/06/26 16:07:53: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:07:53: SESSION_MGR: creating session with session uuid: 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:53: KERNEL_SVC: creating session with uuid: 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:53: GUIDANCE_SMGR: creating guidance session with uuid: 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:53: SYSTEM_DIAGRAM: creating session with uuid: 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:55: Running xcd server. This server was built by gradle.
+04/06/26 16:07:55: Server was asked to start on port: '52280'
+04/06/26 16:07:55: Server is using token UUID: 'd8b5fef7-2909-43e0-8ed6-145c87b5ac13'
+04/06/26 16:07:55: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:07:55: Attempting to start server on port '52280'
+04/06/26 16:07:55: Running Dispatch Server
+04/06/26 16:07:55: Version 2.2.0
+04/06/26 16:07:58: Dispatch Server: Accepted socket connection from client
+04/06/26 16:07:58: Starting Socket connection
+04/06/26 16:07:58: EXCHANGE_TOKEN received, server token: d8b5fef7-2909-43e0-8ed6-145c87b5ac13, passed token: d8b5fef7-2909-43e0-8ed6-145c87b5ac13
+04/06/26 16:07:58: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:07:58: SESSION_MGR: creating session with session uuid: '460dbc58-9007-4ca5-83f5-6ffde45d1280' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:58: KERNEL_SVC: creating session with uuid: '460dbc58-9007-4ca5-83f5-6ffde45d1280' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:58: GUIDANCE_SMGR: creating guidance session with uuid: '460dbc58-9007-4ca5-83f5-6ffde45d1280' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:58: SYSTEM_DIAGRAM: creating session with uuid: '460dbc58-9007-4ca5-83f5-6ffde45d1280' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:07:59: Dispatch Server: Accepted socket connection from client
+04/06/26 16:07:59: Starting Socket connection
+04/06/26 16:08:04: Dispatch Server: Accepted socket connection from client
+04/06/26 16:08:04: Starting Socket connection
+04/06/26 16:08:04: SESSION_MGR: closing session for UUID '460dbc58-9007-4ca5-83f5-6ffde45d1280' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:08:04: KERNEL_SVC: closing session for UUID '460dbc58-9007-4ca5-83f5-6ffde45d1280' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:08:04: GUIDANCE_SMGR: closing session for UUID '460dbc58-9007-4ca5-83f5-6ffde45d1280' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:08:04: SYSTEM_DIAGRAM: closing session for UUID '460dbc58-9007-4ca5-83f5-6ffde45d1280' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:08:04: STOP_SERVER received, server token: d8b5fef7-2909-43e0-8ed6-145c87b5ac13, passed token: d8b5fef7-2909-43e0-8ed6-145c87b5ac13
+04/06/26 16:08:04: Socket received request to stop server.
+04/06/26 16:08:04: Dispatch Server: do_await_stop
+04/06/26 16:08:04: SERVER: destructor for server bound to port 52280
+04/06/26 16:11:26: SESSION_MGR: closing session for UUID 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:11:26: KERNEL_SVC: closing session for UUID 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:11:26: GUIDANCE_SMGR: closing session for UUID 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:11:26: SYSTEM_DIAGRAM: closing session for UUID 'cbf982b8-2a63-45fe-b342-c674b0e9d97b' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:11:26: STOP_SERVER received, server token: 8f00ed01-0054-44d1-8f5e-0b23f1b97ce5, passed token: 8f00ed01-0054-44d1-8f5e-0b23f1b97ce5
+04/06/26 16:11:26: Socket received request to stop server.
+04/06/26 16:11:26: Dispatch Server: do_await_stop
+04/06/26 16:11:26: SERVER: destructor for server bound to port 52278
+04/06/26 16:20:51: Running xcd server. This server was built by gradle.
+04/06/26 16:20:51: Server was asked to start on port: '58631'
+04/06/26 16:20:51: Server is using token UUID: 'b185e09f-9545-4d30-ae1d-360280869e12'
+04/06/26 16:20:51: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:20:51: Attempting to start server on port '58631'
+04/06/26 16:20:51: Running Dispatch Server
+04/06/26 16:20:51: Version 2.2.0
+04/06/26 16:20:54: Dispatch Server: Accepted socket connection from client
+04/06/26 16:20:54: Starting Socket connection
+04/06/26 16:20:54: EXCHANGE_TOKEN received, server token: b185e09f-9545-4d30-ae1d-360280869e12, passed token: b185e09f-9545-4d30-ae1d-360280869e12
+04/06/26 16:20:54: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:20:54: SESSION_MGR: creating session with session uuid: 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:20:54: KERNEL_SVC: creating session with uuid: 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:20:54: GUIDANCE_SMGR: creating guidance session with uuid: 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:20:54: SYSTEM_DIAGRAM: creating session with uuid: 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:20:59: Running xcd server. This server was built by gradle.
+04/06/26 16:20:59: Server was asked to start on port: '58633'
+04/06/26 16:20:59: Server is using token UUID: '0899ef1b-6a46-4363-9c96-71a662665850'
+04/06/26 16:20:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:20:59: Attempting to start server on port '58633'
+04/06/26 16:20:59: Running Dispatch Server
+04/06/26 16:20:59: Version 2.2.0
+04/06/26 16:21:00: Dispatch Server: Accepted socket connection from client
+04/06/26 16:21:00: Starting Socket connection
+04/06/26 16:21:01: Dispatch Server: Accepted socket connection from client
+04/06/26 16:21:01: Starting Socket connection
+04/06/26 16:21:01: EXCHANGE_TOKEN received, server token: 0899ef1b-6a46-4363-9c96-71a662665850, passed token: 0899ef1b-6a46-4363-9c96-71a662665850
+04/06/26 16:21:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:21:01: SESSION_MGR: creating session with session uuid: '1c6fd865-1e26-41bc-871c-7149984b00d8' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:01: KERNEL_SVC: creating session with uuid: '1c6fd865-1e26-41bc-871c-7149984b00d8' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:01: GUIDANCE_SMGR: creating guidance session with uuid: '1c6fd865-1e26-41bc-871c-7149984b00d8' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:01: SYSTEM_DIAGRAM: creating session with uuid: '1c6fd865-1e26-41bc-871c-7149984b00d8' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:07: Dispatch Server: Accepted socket connection from client
+04/06/26 16:21:07: Starting Socket connection
+04/06/26 16:21:58: SESSION_MGR: closing session for UUID '1c6fd865-1e26-41bc-871c-7149984b00d8' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:58: KERNEL_SVC: closing session for UUID '1c6fd865-1e26-41bc-871c-7149984b00d8' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:58: GUIDANCE_SMGR: closing session for UUID '1c6fd865-1e26-41bc-871c-7149984b00d8' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:58: SYSTEM_DIAGRAM: closing session for UUID '1c6fd865-1e26-41bc-871c-7149984b00d8' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:21:58: STOP_SERVER received, server token: 0899ef1b-6a46-4363-9c96-71a662665850, passed token: 0899ef1b-6a46-4363-9c96-71a662665850
+04/06/26 16:21:58: Socket received request to stop server.
+04/06/26 16:21:58: Dispatch Server: do_await_stop
+04/06/26 16:21:58: SERVER: destructor for server bound to port 58633
+04/06/26 16:24:08: SESSION_MGR: closing session for UUID 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:24:08: KERNEL_SVC: closing session for UUID 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:24:08: GUIDANCE_SMGR: closing session for UUID 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:24:08: SYSTEM_DIAGRAM: closing session for UUID 'ea27dac1-4ed2-43ca-ae9b-5a4234db8872' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:24:08: STOP_SERVER received, server token: b185e09f-9545-4d30-ae1d-360280869e12, passed token: b185e09f-9545-4d30-ae1d-360280869e12
+04/06/26 16:24:08: Socket received request to stop server.
+04/06/26 16:24:08: Dispatch Server: do_await_stop
+04/06/26 16:24:08: SERVER: destructor for server bound to port 58631
+04/06/26 16:32:59: Running xcd server. This server was built by gradle.
+04/06/26 16:32:59: Server was asked to start on port: '54573'
+04/06/26 16:32:59: Server is using token UUID: 'fa4d6397-be98-494f-84df-fe1bdf2df0f7'
+04/06/26 16:32:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:32:59: Attempting to start server on port '54573'
+04/06/26 16:32:59: Running Dispatch Server
+04/06/26 16:32:59: Version 2.2.0
+04/06/26 16:33:01: Running xcd server. This server was built by gradle.
+04/06/26 16:33:01: Server was asked to start on port: '54576'
+04/06/26 16:33:01: Server is using token UUID: '9cfe034e-63d6-4475-a14e-c649ad4f2ebb'
+04/06/26 16:33:01: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/06/26 16:33:01: Attempting to start server on port '54576'
+04/06/26 16:33:01: Running Dispatch Server
+04/06/26 16:33:01: Version 2.2.0
+04/06/26 16:33:01: Dispatch Server: Accepted socket connection from client
+04/06/26 16:33:01: Starting Socket connection
+04/06/26 16:33:01: EXCHANGE_TOKEN received, server token: fa4d6397-be98-494f-84df-fe1bdf2df0f7, passed token: fa4d6397-be98-494f-84df-fe1bdf2df0f7
+04/06/26 16:33:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:33:01: SESSION_MGR: creating session with session uuid: '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:01: KERNEL_SVC: creating session with uuid: '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:01: GUIDANCE_SMGR: creating guidance session with uuid: '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:01: SYSTEM_DIAGRAM: creating session with uuid: '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:03: Dispatch Server: Accepted socket connection from client
+04/06/26 16:33:03: Starting Socket connection
+04/06/26 16:33:03: EXCHANGE_TOKEN received, server token: 9cfe034e-63d6-4475-a14e-c649ad4f2ebb, passed token: 9cfe034e-63d6-4475-a14e-c649ad4f2ebb
+04/06/26 16:33:04: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/06/26 16:33:04: SESSION_MGR: creating session with session uuid: '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:04: KERNEL_SVC: creating session with uuid: '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:04: GUIDANCE_SMGR: creating guidance session with uuid: '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:04: SYSTEM_DIAGRAM: creating session with uuid: '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' and name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:08: Dispatch Server: Accepted socket connection from client
+04/06/26 16:33:08: Starting Socket connection
+04/06/26 16:33:09: SESSION_MGR: closing session for UUID '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:09: KERNEL_SVC: closing session for UUID '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:09: GUIDANCE_SMGR: closing session for UUID '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:09: SYSTEM_DIAGRAM: closing session for UUID '7f60bc02-75af-4c8b-a7e8-9efdd9a8f04c' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:09: STOP_SERVER received, server token: 9cfe034e-63d6-4475-a14e-c649ad4f2ebb, passed token: 9cfe034e-63d6-4475-a14e-c649ad4f2ebb
+04/06/26 16:33:09: Socket received request to stop server.
+04/06/26 16:33:09: Dispatch Server: do_await_stop
+04/06/26 16:33:09: SERVER: destructor for server bound to port 54576
+04/06/26 16:33:57: SESSION_MGR: closing session for UUID '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:57: KERNEL_SVC: closing session for UUID '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:57: GUIDANCE_SMGR: closing session for UUID '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:57: SYSTEM_DIAGRAM: closing session for UUID '4a5c34e3-3e4e-4db8-8679-f16d5d4ca953' with name 'vitis-run_compile_streetfighter'
+04/06/26 16:33:57: STOP_SERVER received, server token: fa4d6397-be98-494f-84df-fe1bdf2df0f7, passed token: fa4d6397-be98-494f-84df-fe1bdf2df0f7
+04/06/26 16:33:57: Socket received request to stop server.
+04/06/26 16:33:57: Dispatch Server: do_await_stop
+04/06/26 16:33:57: SERVER: destructor for server bound to port 54573

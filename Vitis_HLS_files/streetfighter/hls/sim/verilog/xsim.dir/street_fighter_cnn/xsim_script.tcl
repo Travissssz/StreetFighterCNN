@@ -1,0 +1,1 @@
+xsim {street_fighter_cnn} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=street_fighter_cnn_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {street_fighter_cnn.tcl}

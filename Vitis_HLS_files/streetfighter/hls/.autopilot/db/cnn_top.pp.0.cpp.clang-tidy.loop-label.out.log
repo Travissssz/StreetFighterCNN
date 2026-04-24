@@ -1,0 +1,55 @@
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2269:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2269:5: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2283:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2283:5: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2297:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:2297:5: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:5805:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:5805:7: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52214:9: remark: Added loop label VITIS_LOOP_72_1:   [xilinx-label-all-loops]
+        for (int t = 0; t < 20; t++) {
+        ^
+        VITIS_LOOP_72_1: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52214:9: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52219:17: remark: Added loop label VITIS_LOOP_77_2:   [xilinx-label-all-loops]
+                for (int k = 0; k < 5; k++) {
+                ^
+                VITIS_LOOP_77_2: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52219:17: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52233:9: remark: Added loop label VITIS_LOOP_91_3:   [xilinx-label-all-loops]
+        for (int t = 0; t < 10; t++) {
+        ^
+        VITIS_LOOP_91_3: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52233:9: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52243:9: remark: Added loop label VITIS_LOOP_114_4:   [xilinx-label-all-loops]
+        for (int t = 0; t < 10; t++) {
+        ^
+        VITIS_LOOP_114_4: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52243:9: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52249:17: remark: Added loop label VITIS_LOOP_120_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < 3; k++) {
+                ^
+                VITIS_LOOP_120_5: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52249:17: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52265:9: remark: Added loop label VITIS_LOOP_136_6:   [xilinx-label-all-loops]
+        for (int j = 0; j < 32; j++) {
+        ^
+        VITIS_LOOP_136_6: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52265:9: note: FIX-IT applied suggested code changes
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52268:13: remark: Added loop label VITIS_LOOP_139_7:   [xilinx-label-all-loops]
+            for (int t = 0; t < 10; t++) {
+            ^
+            VITIS_LOOP_139_7: 
+C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp:52268:13: note: FIX-IT applied suggested code changes

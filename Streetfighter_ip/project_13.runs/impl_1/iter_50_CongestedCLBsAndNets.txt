@@ -1,0 +1,23 @@
+List of CLB Tiles
+CLEM_R_X27Y153
+CLEL_R_X27Y153
+CLEM_X14Y146
+CLEL_R_X14Y146
+CLEM_R_X26Y129
+CLEL_R_X21Y84
+CLEM_X16Y77
+CLEL_R_X16Y77
+CLEM_X14Y147
+CLEL_R_X14Y147
+CLEM_X14Y153
+CLEL_R_X14Y153
+CLEM_X14Y155
+CLEL_R_X14Y155
+CLEL_R_X12Y76
+CLEL_L_X5Y149
+CLEL_R_X5Y149
+
+List of Congested Nets
+design_1_i/street_fighter_cnn_0/inst/grp_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_fu_1156/tmp_56_reg_54717[27]_i_64_n_2
+design_1_i/street_fighter_cnn_0/inst/grp_street_fighter_cnn_Pipeline_CONV2_OUT_VITIS_LOOP_114_4_fu_1156/mul_ln124_168_reg_36364_pp0_iter8_reg[31]
+

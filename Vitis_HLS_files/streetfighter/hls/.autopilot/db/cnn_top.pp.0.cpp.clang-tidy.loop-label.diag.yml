@@ -1,0 +1,136 @@
+---
+MainSourceFile:  'C:/Users/eswar/OneDrive/Desktop/streetfighter/streetfighter/hls/.autopilot/db/cnn_top.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          281348
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          281819
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          282291
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          627978
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_72_1:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      72
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2368371
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_72_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_77_2:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      77
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2368574
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_77_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_91_3:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      91
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2368966
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_91_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_114_4:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      114
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2369300
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_114_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_120_5:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      120
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2369542
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_120_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_136_6:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      136
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2370025
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_136_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_139_7:  '
+      FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\src\cnn_top.cpp'
+      FileOffset:      139
+      Replacements:
+        - FilePath:        'C:\Users\eswar\OneDrive\Desktop\streetfighter\streetfighter\hls\.autopilot\db\cnn_top.pp.0.cpp'
+          Offset:          2370125
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_139_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\eswar\OneDrive\Desktop\streetfighter'
+...

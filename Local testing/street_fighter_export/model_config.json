@@ -1,0 +1,39 @@
+{
+  "model_name": "StreetFighterCNN",
+  "input_channels": 6,
+  "input_length": 20,
+  "target_rows": 20,
+  "num_classes": 10,
+  "conv_blocks": [
+    {
+      "in_channels": 6,
+      "out_channels": 64,
+      "kernel_size": 5,
+      "padding": 2,
+      "pool": true,
+      "pool_kernel": 2,
+      "dropout": 0.15789805985107816
+    },
+    {
+      "in_channels": 64,
+      "out_channels": 32,
+      "kernel_size": 3,
+      "padding": 1,
+      "pool": false,
+      "dropout": 0.1981132230256581
+    }
+  ],
+  "final_layer_in_features": 32,
+  "optimizer_used_for_training": "AdamW",
+  "learning_rate": 0.0048528224494085535,
+  "weight_decay": 0.00021240029415410964,
+  "label_smoothing": 0.002351253426949095,
+  "feature_order": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz"
+  ]
+}

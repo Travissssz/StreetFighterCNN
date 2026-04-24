@@ -1,0 +1,7 @@
+Running: xsim.dir/street_fighter_cnn/xsimk.exe -simmode gui -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=street_fighter_cnn_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -wdb street_fighter_cnn.wdb -simrunnum 0 -socket 64624
+Design successfully loaded
+Design Loading Memory Usage: 36764 KB (Peak: 36764 KB)
+Design Loading CPU Usage: 109 ms
+Simulation completed
+Simulation Memory Usage: 251252 KB (Peak: 251252 KB)
+Simulation CPU Usage: 13921 ms
